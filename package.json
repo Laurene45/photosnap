@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "sass": "^1.63.6"
-  }
+  "name": "photosnap",
+  "version": "1.0.0",
+  "description": "photographers website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laurene45/photosnap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laurene45/photosnap/issues"
+  },
+  "homepage": "https://github.com/Laurene45/photosnap#readme"
 }
