@@ -123,17 +123,17 @@
 }
 
 .cta-banner {
-    background: $c-black, url('../../assets/shared/desktop/bg-beta.jpg') center;
+    background: url('../../assets/shared/desktop/bg-beta.jpg') center;
     background-size: cover;
     color: white;
 
     @include respond-below('med-lg') {
-        background: $c-black, url('../../assets/shared/tablet/bg-beta.jpg') center;
+        background: url('../../assets/shared/tablet/bg-beta.jpg') center;
         background-size: cover;
     }
 
     @include respond-below('sm') {
-        background: $c-black, url('../../assets/shared/mobile/bg-beta.jpg') center;
+        background:  url('../../assets/shared/mobile/bg-beta.jpg') center;
         background-size: cover;
     }
 
